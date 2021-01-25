@@ -29,6 +29,8 @@ allure {
 }
 
 dependencies {
+    compile("org.aeonbits.owner:owner:1.0.12")
+
     testImplementation "org.aspectj:aspectjweaver:1.9.5"
     testImplementation "com.codeborne:selenide:${selenideVersion}"
     testImplementation "io.qameta.allure:allure-selenide:${allureVersion}"

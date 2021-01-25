@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class WebDriverTest {
+public class GoogleTest {
 
     private WebDriver driver;
 

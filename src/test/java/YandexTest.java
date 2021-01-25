@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class WebDriverTest {
+public class YandexTest {
 
     private WebDriver driver;
 
@@ -16,8 +16,8 @@ public class WebDriverTest {
     }
 
     @Test
-    public void testGoogle() {
-        driver.get("https://google.com");
+    public void testYandex() {
+        driver.get("https://yandex.ru");
     }
 
     @AfterEach
