@@ -17,10 +17,11 @@ public class WebDriverTest {
 
     @Test
     public void testGoogle() {
+        driver.get("https://google.com");
     }
 
     @AfterEach
     public void stopDriver() {
-        driver.get("https://google.com");
+        driver.quit();
     }
 }
